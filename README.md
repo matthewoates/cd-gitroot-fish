@@ -1,5 +1,5 @@
 # cd-gitroot-fish
-[mollifier/cd-gitroot](https://github.com/mollifier/cd-gitroot) for fish version.
+[matthewoates/cdr](https://github.com/mollifier/cd-gitroot) for fish version.
 
 Jump to git repository's toplevel directory.
 
@@ -10,6 +10,6 @@ $ fisher install tasuten/cd-gitroot-fish
 
 # Usage
 ```
-$ cd-gitroot [PATH]
+$ cdr [PATH]
 ```
 If `PATH` is specified, it's recognized as relative path from repo's toplevel directory.
