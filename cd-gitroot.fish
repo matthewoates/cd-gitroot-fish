@@ -1,11 +1,11 @@
 function __cdgitroot_usage
-    echo 'Usage: cd-gitroot [PATH]'
+    echo 'Usage: cdr [PATH]'
     echo 'Jump to git repository\'s root directory.'
     echo 'If PATH is specified, it\'s recognized as relative path'
     echo 'from repository\'s root directory. And jump to it.'
 end
 
-function cd-gitroot -d 'Jump to git repo\'s root'
+function cdr -d 'Jump to git repo\'s root'
     if not __cdgitroot_in_repo
         echo 'It\'s out of working tree!' 1>&2
         return 1
@@ -35,5 +35,5 @@ function __cdgitroot_in_repo
     return $status
 end
 
-complete -c cd-gitroot --no-files -d 'path' --condition __cdgitroot_in_repo -a '(__cdgitroot_complete)'
+complete -c cdr --no-files -d 'path' --condition __cdgitroot_in_repo -a '(__cdgitroot_complete)'
 
