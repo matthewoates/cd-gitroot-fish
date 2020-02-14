@@ -1,11 +1,10 @@
-# cd-gitroot-fish
-[matthewoates/cdr](https://github.com/mollifier/cd-gitroot) for fish version.
+# cdr
 
 Jump to git repository's toplevel directory.
 
 # Install
 ``` sh
-$ fisher install tasuten/cd-gitroot-fish
+$ fisher install matthewoates/cd-gitroot-fish
 ```
 
 # Usage
