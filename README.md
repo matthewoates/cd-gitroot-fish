@@ -4,7 +4,7 @@ Jump to git repository's toplevel directory.
 
 # Install
 ``` sh
-$ fisher install matthewoates/cd-gitroot-fish
+$ fisher add matthewoates/cd-gitroot-fish
 ```
 
 # Usage
