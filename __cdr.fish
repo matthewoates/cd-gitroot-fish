@@ -36,4 +36,3 @@ function __cdr_in_repo
 end
 
 complete -c cdr --no-files -d 'path' --condition __cdr_in_repo -a '(__cdr_complete)'
-
